@@ -2,7 +2,7 @@ use crate::{user::User, Id};
 
 #[derive(Debug, Clone)]
 pub struct Photo {
-    id: Id,
+    pub id: Id,
     pub width: u32,
     pub height: u32,
     pub url: String,

@@ -2,7 +2,7 @@ use crate::{user::User, Id};
 
 #[derive(Debug, Clone)]
 pub struct Video {
-    id: Id,
+    pub id: Id,
     pub width: u32,
     pub heigth: u32,
     pub duration: u32,
@@ -16,7 +16,7 @@ pub struct Video {
 
 #[derive(Debug, Clone)]
 pub struct File {
-    id: Id,
+    pub id: Id,
     pub quality: Quality,
     pub file_type: FileType,
     pub width: u32,
